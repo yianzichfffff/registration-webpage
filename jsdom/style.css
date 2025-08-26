@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.5s, color 0.5s;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+}
+
+#message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.dark-mode form {
+  background-color: #444;
+  color: #f4f4f4;
+}
+
+.dark-mode input, .dark-mode button {
+  background-color: #555;
+  color: #f4f4f4;
+  border: 1px solid #888;
+}
+   
